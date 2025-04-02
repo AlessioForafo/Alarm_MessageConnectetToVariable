@@ -1,0 +1,10 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: TestoAllarme
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Testo1"
+- Name: BitAllarme
+  Type: BaseDataVariableType
+  DataType: Boolean

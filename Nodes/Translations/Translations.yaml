@@ -1,0 +1,32 @@
+Name: Translations
+Type: TranslationsCategoryFolder
+Children:
+- Name: LocalizationDictionary1
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [17,3],
+    "Body": [
+     "","en-US","it-IT",
+     "Timestamp","Timestamp","",
+     "TimedShelve","Timed Shelve","",
+     "Acknowledge","Acknowledge","",
+     "Acknowledge All","Acknowledge All","",
+     "Active","Active","Attivo",
+     "Confirm","Confirm","",
+     "OneShotShelve","One-Shot Shelve","",
+     "Confirm All","Confirm All","",
+     "Name","Name","",
+     "SourceName","Source Variable","",
+     "Message","Message","",
+     "Acked","Acked","",
+     "Confirmed","Confirmed","",
+     "Severity","Severity","",
+     "Testo1","Text 1 ENG","Testo 1 ITA",
+     "Testo2","Text 2 ENG","Testo 2 ITA"
+    ]
+   }
