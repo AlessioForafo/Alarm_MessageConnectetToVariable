@@ -1,26 +1,33 @@
 Name: Alarms
+Id: g=9d648f7e45c611d2e6c8c3d8e3da96a9
 Type: AlarmsCategoryFolder
 Children:
 - Name: DigitalAlarm1
+  Id: g=49ba1228ed81d0d641e070581278217b
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
+    Id: g=2c2fcb8ea9cfa008d367d6d9b120ad91
     Type: BaseDataVariableType
     DataType: Double
   - Name: InputValue
+    Id: g=9ab19891229c34f8242a7a26f1c829bb
     Type: BaseDataVariableType
     DataType: Double
     Children:
     - Name: DynamicLink
+      Id: g=067a37d5a0e0a43dfb77b108dd512cdc
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../Model/BitAllarme"
       Children:
       - Name: Mode
+        Id: g=4ea61f6aabbad523ca9162e02162bee5
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
+    Id: g=c6ffff4f0bdda1f698e882a33a498caa
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -59,28 +66,35 @@ Children:
     Target: ns=11;i=154
     Direction: Forward
   - Name: Message
+    Id: g=158d5aea7253d30d2ae8b0dba7e20191
     Type: BaseDataVariableType
     DataType: LocalizedText
     Children:
     - Name: DynamicLink
+      Id: g=8b3f8820d8e4554bc5a7b594b82b31b6
       Type: DynamicLink
       DataType: NodePath
       Value: "../MessaggioLocalizzato/TestoMessaggioLocalizzato"
       Children:
       - Name: IsPull
+        Id: g=d6b1715145716d0a8b03142cc05f9d84
         Type: BaseVariableType
         DataType: Boolean
         Value: true
   - Name: MessaggioLocalizzato
+    Id: g=d82598ff2540fc31aaadde33d70e6de5
     Type: NetLogic
     Children:
     - Name: TestoMessaggioLocalizzato
+      Id: g=b2a3c52ebc2f6a206e9d6df8b39bfa85
       Type: BaseDataVariableType
       DataType: LocalizedText
     - Class: Method
       Name: SetMessage
+      Id: g=93dc96fa983e7c28f3f49b9583c6d533
       Children:
       - Name: ns=0;InputArguments
+        Id: g=c1858ccb06f90c7abf191b047b5c3041
         Type: BaseVariableType
         DataType: Argument
         ReferenceType: HasProperty
@@ -88,24 +102,27 @@ Children:
         ArrayDimensions: [0]
         Value: [{"TypeId":{"Id":296},"Body":{"Name":"chiave","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
   - Name: VarStringa
+    Id: g=9bc31825c4c37650ac12a3729310bbfb
     Type: BaseDataVariableType
     DataType: String
     Value: "0"
     Children:
     - Name: DynamicLink
+      Id: g=e55b2135637019d7bf40682e1c208374
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../Model/TestoAllarme"
       Children:
       - Name: Mode
+        Id: g=034ef9293c49d12d4defe09253e41a61
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: AutoAcknowledge
+    Id: g=b5680ff1cd3bb45e40f5020c010c5e79
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: true
   - Name: AutoConfirm
+    Id: g=322aa1cdd6c16c7db028bfa9793c45ee
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: true
